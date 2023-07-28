@@ -83,13 +83,7 @@ print("This sentence has", digCnt, "digits", upCnt, "upper case letters", loCnt,
 # In[ ]:
 
 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Feb 22 01:48:17 2023
 
-@author: Prabodh C P
-"""
 
 str1 = input("Enter String 1 \n")
 str2 = input("Enter String 2 \n")
