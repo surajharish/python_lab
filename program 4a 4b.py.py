@@ -1,11 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
+******** insertion sort********
 import random
-
 def merge_sort(lst):
     if len(lst) > 1:
         mid = len(lst) // 2
@@ -72,9 +66,7 @@ merge_sort(my_list)
 print(my_list)
 
 
-# In[ ]:
-
-
+******** roman number to decimal ********
 def roman2Dec(romStr):
     roman_dict ={'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
     
@@ -91,18 +83,11 @@ def roman2Dec(romStr):
             value += leftVal
         rightVal = leftVal
     return value
-
-
 romanStr = input("Enter a Roman Number : ")
 print(roman2Dec(romanStr))
 
 
-# In[3]:
-
-
-import re
-
-
+****** phone number *******
 def isphonenumber(numStr):
     if len(numStr) != 12:
         return False
@@ -114,8 +99,6 @@ def isphonenumber(numStr):
             if numStr[i].isdigit() == False:
                 return False
     return True
-
-
 def chkphonenumber(numStr):
     ph_no_pattern = re.compile(r'^\d{3}-\d{3}-\d{4}$')
     if ph_no_pattern.match(numStr):
@@ -136,8 +119,6 @@ if chkphonenumber(ph_num):
 else:
     print("Invalid phone number")
 
-
-# In[ ]:
 
 
 
