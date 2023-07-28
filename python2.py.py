@@ -1,11 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-"""
-
+**********write a program on palindrome************
 val = int(input("Enter a value : "))
 str_val = str(val)
 if str_val == str_val[::-1]:
@@ -18,9 +11,8 @@ for i in range(10):
         print(str(i),"appears", str_val.count(str(i)), "times");
 
 
-# In[ ]:
 
-
+***********write a program on bin to dec************
 def bin2Dec(val):
     rev=val[::-1]
     dec = 0
@@ -59,9 +51,8 @@ num2 = input("Enter a octal number : ")
 print(oct2Hex(num2))
 
 
-# In[ ]:
 
-
+********** python program that accepts a sentence************
 sentence = input("Enter a sentence : ")
 
 wordList = sentence.split(" ")
@@ -80,11 +71,8 @@ for ch in sentence:
 print("This sentence has", digCnt, "digits", upCnt, "upper case letters", loCnt, "lower case letters")
 
 
-# In[ ]:
 
-
-
-
+***************python program to find similarity **************
 str1 = input("Enter String 1 \n")
 str2 = input("Enter String 2 \n")
 
