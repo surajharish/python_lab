@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
+*******phone number *******
 def isphonenumber(numStr):
     if len(numStr) != 12:
         return False
@@ -37,9 +32,7 @@ else:
 
 
 
-# In[ ]:
-
-
+******** phone number and email*********
 import re
 # Define the regular expression for phone numbers
 phone_regex = re.compile(r'\+\d{12}')
