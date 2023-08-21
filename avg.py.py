@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[ ]:
 
 
 m1 = int(input("Enter marks for test1 : "))
